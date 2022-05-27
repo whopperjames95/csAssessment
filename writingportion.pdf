@@ -1,0 +1,37 @@
+Step 1
+
+Answer 1: extraLargeArray
+Insert Time - 1.067 s
+Append Time - 4.496 ms
+
+
+Answer 2: tinyArray
+Insert Time - 43.1 us
+Append Time - 123.611 us
+
+
+Answer 3: smallArray
+Insert Time - 57.302 us
+Append Time - 134.536 us
+
+
+Answer 4: mediumArray
+Insert Time - 201.229 us
+Append Time - 230.173 us
+
+
+Answer 5: largeArray
+Insert Time - 8.0561 ms
+Append Time - 843.899 us
+
+
+Read over the results, and write a paragraph that explains the pattern you see. How does each function “scale”? Which of the two functions scales better? How can you tell?
+
+
+Answer:
+How Each function scale: Insert - Exponential growth on a line graph, In this specific function, once we executed the large array, the time dramatically increased
+Append - Growth on the line graph, is more steady & gradual compared to Insert, it does start out slower, but in the end, it proved to be faster and more efficient. We can clearly see that once we executed large array & extra large array, time did increase but not so dramatically like Insert.
+Conclusion: In this comparison with the arrays, according to the evidence of speed, Append takes the win. Yes it starts a little bit slower compared to insert, but in the end is more efficient, and since it is a bit more efficient, the speed is a bit faster when the array size increases.
+
+Extra Credit: For extra credit, do some review / research on why the slower function is so slow, and summarize the reasoning for this.
+Answer: If we want to add an element at the end of a list, we should use append. It is faster and direct. If we want to add an element somewhere within a list, we should use insert.
