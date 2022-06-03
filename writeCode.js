@@ -14,7 +14,8 @@ for (let i = 0; i < array.length; i++) {
 
 console.log(value)
 
-// space complexity: O(n)
+// space complexity: O(1)
+//time complexity: O(n^2)
 
 
 //code2
@@ -30,6 +31,7 @@ function hasUniqueChars(word) {
 
 console.log(hasUniqueChars(word))
 // space complexity: O(n)
+//time complexity: O(1)
 
 
 //code3
@@ -37,7 +39,8 @@ const isPangram = (string) =>
      new Set(string.toLowerCase().match(/[a-z]/g)).size === 26;
 
 console.log(isPangram("abcdefghijklmnopqrstuvwxyz"));
-// space complexity: O(1)
+// space complexity: O(n)
+//time complexity = o(n)
 
 
 
@@ -55,6 +58,7 @@ function findLongestWord(str) {
 
   console.log(findLongestWord("The quick brown fox jumpedweerfgbxcghfhdgggdhfg over the lazy dog"))
   // space complexity: O(n)
+  //time complexity: O(n)
 
 
 
